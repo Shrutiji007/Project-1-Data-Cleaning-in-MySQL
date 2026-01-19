@@ -194,3 +194,29 @@ FROM layoffs_staging2;
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
 
+
+
+-- Before Cleaning
+
+SELECT * 
+FROM layoffs LIMIT 20;
+
+-- After Cleaning
+
+SELECT * 
+FROM layoffs_staging2 LIMIT 20;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
